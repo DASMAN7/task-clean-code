@@ -21,9 +21,11 @@ body {
 }
 
 @media (max-width:768px) {
+
   .glavimg {
     text-align: center;
   }
+  
 }
 
 .centered-main-page-element {
