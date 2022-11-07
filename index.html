@@ -5,12 +5,10 @@
   <title>Todo App</title>
 
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
-      rel="stylesheet"
-      type="text/css">
+      rel="stylesheet">
 
   <link rel="stylesheet"
-      href="style.css" 
-      type="text/css" 
+      href="style.css"  
       MEDIA="screen" 
       charset="utf-8">
 </head>
@@ -27,7 +25,7 @@
     <p id="topSectionForAddingElementToList">
       <label for="new-task">Add Item</label>
       <div class="task-row-wrapper">
-        <input id="new-task" class="task" type="text">
+        <input id="new-task" class="task">
         <button>Add</button>
       </div>
     </p>
@@ -36,17 +34,16 @@
     <ul id="incompleteTasks">
 
       <li>
-        <input type="checkbox">
-        <label class="task">Pay Bills</label><input type="text" class="task">
+        <input>
+        <label class="task">Pay Bills</label><input  class="task">
         <button class="edit">Edit</button>
         <button class="delete"><img src="./remove.svg"></button>
       </li>
 
       <li class="editMode">
-        <input type="checkbox">
+        <input>
         <label class="task">Go Shopping</label>
-        <input type="text"
-        value="Go Shopping" class="task">
+        <input value="Go Shopping" class="task">
         <button class="edit">Save</button>
         <button class="delete"><img src="./remove.svg"></button>
       </li>
@@ -58,16 +55,16 @@
     <ul id="completed-tasks">
 
       <li>
-        <input type="checkbox" checked>
+        <input checked>
         <label class="task">See the Doctor</label>
-        <input type="text" class="task">
+        <input class="task">
         <button class="edit">Edit</button>
         <button class="delete"><img src="./remove.svg"></button>
       </li>
 
     </ul>
   </div>
-  <script type="text/javascript" SRC="app.js"></script>
+  <script SRC="app.js"></script>
 </body>
 
 </html>
