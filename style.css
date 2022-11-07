@@ -25,7 +25,7 @@ body {
   .glavimg {
     text-align: center;
   }
-  
+
 }
 
 .centered-main-page-element {
@@ -139,7 +139,7 @@ li>label {
 }
 
 li>input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 
 button.delete img {
@@ -159,12 +159,12 @@ button.delete img:hover {
 
 /* Edit Task */
 ul li input[type=text] {
-  display: none
+  display: none;
 }
 
 ul li.editMode input[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 ul li.editMode label {
